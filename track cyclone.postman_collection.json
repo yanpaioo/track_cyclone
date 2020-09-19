@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "7e23ed87-a0be-474f-87e2-d5907b729608",
+		"name": "track cyclone",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get cyclone info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "0.0.0.0:5000/activity?ocean=atlantic",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "5000",
+					"path": [
+						"activity"
+					],
+					"query": [
+						{
+							"key": "start_time",
+							"value": "2020-9-18-12:0",
+							"disabled": true
+						},
+						{
+							"key": "end_time",
+							"value": "2020-9-17-0:0",
+							"disabled": true
+						},
+						{
+							"key": "ocean",
+							"value": "atlantic"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get oceans",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "0.0.0.0:5000/oceans",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "5000",
+					"path": [
+						"oceans"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get oceans Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "0.0.0.0:5000/cyclones",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "5000",
+					"path": [
+						"cyclones"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
